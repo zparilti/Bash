@@ -1,2 +1,10 @@
-w a
-fa
+#! bin/bash
+# Topic: Introduction to Linux
+# Lab: Introduction to an Amazon Linux Amazon Machine Image (AMI)
+
+echo "Linux is an open source operating system"
+echo "it is modular not monolithic"
+# The echo command is a built-in command that prints the string to the standard output or redirect output to a file. 
+# Echo command is used frequently in bash and bash shell scripts.
+cat /etc/os-release  # shows the os-release information
+cat -n /etc/os-release  # shows the os-release information with a numbering list 
