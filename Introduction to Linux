@@ -2,9 +2,15 @@
 # Topic: Introduction to Linux
 # Lab: Introduction to an Amazon Linux Amazon Machine Image (AMI)
 
+man . # General Commands Manual
+/term # search for a term in manuals
+man hostname # hostaname command manual
+
+
+echo "Hello Cator 30" # display a line of text
 echo "Linux is an open source operating system"
 echo "it is modular not monolithic"
-# The echo command is a built-in command that prints the string to the standard output or redirect output to a file. 
-# Echo command is used frequently in bash and bash shell scripts.
-cat /etc/os-release  # shows the os-release information
-cat -n /etc/os-release  # shows the os-release information with a numbering list 
+echo "more info on  your OS"
+hostname # system hostname
+cat /etc/os-release # Linux OS distro info
+cat /etc/os-release | grep NAME # Linux OS distro name
