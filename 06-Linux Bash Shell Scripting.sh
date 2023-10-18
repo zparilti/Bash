@@ -134,6 +134,7 @@ fi
     
 
 # EXTRAS
+# functions examples
 # Write a calculator program
 # Bash arguments
 
